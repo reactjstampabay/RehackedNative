@@ -3,7 +3,7 @@
 # ReHacked (August 31, 2016): Going Native with React
 ### By [ReactJS Tampa Bay](http://www.meetup.com/ReactJS-Tampa-Bay/)
 
-## Why [React Native](https://facebook.github.io/react-native/) - from Facebook
+## Why [React Native](https://facebook.github.io/react-native/) - per Facebook
 - React Native lets you build mobile apps using only JavaScript. It uses the same design as React, letting you compose a rich mobile UI from declarative components.
 
 - With React Native, you don't build a “mobile web app”, an “HTML5 app”, or a “hybrid app”. You build a real mobile app that's indistinguishable from an app built using Objective-C or Java. React Native uses the same fundamental UI building blocks as regular iOS and Android apps. You just put those building blocks together using JavaScript and React.
@@ -14,7 +14,7 @@
 
 ## Introduction
 
-Each `step-[x]` branch on this repository is a completed solution set.  The `README.md` of each branch describes the steps on how we got to the solution set from the prior step.
+Each `step-[x]` branch in this repository is a completed solution set.  The `README.md` of each branch describes the steps on how we got to the solution set from the prior step.
 
 ## Prerequisites
 
