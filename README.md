@@ -3,7 +3,7 @@
 # ReHacked (August 31, 2016): Going Native with React
 ### By [ReactJS Tampa Bay](http://www.meetup.com/ReactJS-Tampa-Bay/)
 
-Welcome to **ReHacked: Going Native with React**! In this lab we will build an iOS application with simple authorization and navigation. We will use the same [API](https://github.com/reactjstampabay/rehacked-spa-basics-api) as we did for our last lab on [Redux basics](https://github.com/reactjstampabay/rehacked-redux-basics).
+Welcome to **ReHacked: Going Native with React**! In this lab we will build an iOS application with simple authorization and navigation. We will use the same node [API](https://github.com/reactjstampabay/rehacked-spa-basics-api) as we did for our last lab on [Redux basics](https://github.com/reactjstampabay/rehacked-redux-basics).
 
 Apple only allows us to develop for iOS on a Mac, so this lab will focus on OS X.
 
