@@ -1,6 +1,6 @@
 ![ReactJS Tampa Bay Logo](https://avatars2.githubusercontent.com/u/18738421?v=3&s=200)
 
-# ReHacked: Going Native with React [ _Initial_ ]
+# ReHacked: Going Native with React [ Initial ]
 ### By [ReactJS Tampa Bay](http://www.meetup.com/ReactJS-Tampa-Bay/)
 
 ## Why [React Native](https://facebook.github.io/react-native/) (_per Facebook_)
