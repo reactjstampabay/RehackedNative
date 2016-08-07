@@ -44,4 +44,4 @@
 
 1. `react-native run-ios`
 
-[Continue to Step 2](https://github.com/reactjstampabay/rehacked-react-native/tree/step-2)
+[Continue to Step 2](https://github.com/reactjstampabay/RehackedNative/tree/step-2)
