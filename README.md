@@ -18,8 +18,10 @@ Each `step-[x]` branch on this repository is a completed solution set.  The `REA
 
 ## Prerequisites
 
-1. Fork `https://github.com/reactjstampabay/rehacked-redux-basics` to your personal GitHub
-1. In a shell, execute `git clone https://github.com/[your GH username]/rehacked-redux-basics.git`
+1. Sign up for a [GitHub](https://github.com) account
+1. Install [git](https://git-scm.com/downloads)
+1. Fork `https://github.com/reactjstampabay/rehacked-react-native` to your personal GitHub
+1. In a shell, execute `git clone https://github.com/[your GH username]/rehacked-react-native.git`
 1. Execute `git checkout initial`
 
-[Continue to Step 1](https://github.com/reactjstampabay/rehacked-redux-basics/tree/step-1)
+[Continue to Step 1](https://github.com/reactjstampabay/rehacked-react-native/tree/step-1)
