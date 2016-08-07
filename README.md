@@ -3,27 +3,11 @@
 # ReHacked (August 31, 2016): Going Native with React
 ### By [ReactJS Tampa Bay](http://www.meetup.com/ReactJS-Tampa-Bay/)
 
-Welcome to **ReHacked: Going Native with React**! In this lab we will build an iOS application with simple authorization and navigation. We will use the same node [API](https://github.com/reactjstampabay/rehacked-spa-basics-api) as we did for our last lab on [Redux basics](https://github.com/reactjstampabay/rehacked-redux-basics).
+## [Why React Native?](https://facebook.github.io/react-native/)
+- React Native lets you build mobile apps using only JavaScript. It uses the same design as React, letting you compose a rich mobile UI from declarative components.
 
-Apple only allows us to develop for iOS on a Mac, so this lab will focus on OS X.
+- With React Native, you don't build a “mobile web app”, an “HTML5 app”, or a “hybrid app”. You build a real mobile app that's indistinguishable from an app built using Objective-C or Java. React Native uses the same fundamental UI building blocks as regular iOS and Android apps. You just put those building blocks together using JavaScript and React.
 
-## Dependencies for Mac + iOS
-- [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
-- [Node Version Manager](https://github.com/creationix/nvm)
-- Node 4.4.7 (using `nvm install 4.4.7`)
-- [Homebrew](http://brew.sh/) 
-  - `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- React Native lets you build your app faster. Instead of recompiling, you can reload your app instantly. With hot reloading, you can even run new code while retaining your application state. Give it a try - it's a magical experience.
 
-## JavaScript
-- [Atom](https://atom.io/), [WebStorm](https://www.jetbrains.com/webstorm/), or [IntelliJ](https://www.jetbrains.com/idea/)
-  - [terminal-plus for Atom](https://atom.io/packages/terminal-plus)
-
-# ReHacked
-
-We have broken up this lab into stepped branches with their own README.md's that describe what to accomplish.
-
-Please follow the branches in the order listed below
-
-[Start Here](https://github.com/reactjstampabay/rehacked-react-native/tree/initial)
-
-1. [Step 1 Solution Set: Install React Native, Initialize Project, and Run iOS](https://github.com/reactjstampabay/rehacked-react-native/tree/step-1)
+- React Native combines smoothly with components written in Objective-C, Java, or Swift. It's simple to drop down to native code if you need to optimize a few aspects of your application. It's also easy to build part of your app in React Native, and part of your app using native code directly - that's how the Facebook app works.
