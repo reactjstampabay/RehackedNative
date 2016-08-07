@@ -7,6 +7,17 @@ Welcome to **ReHacked: Going Native with React**! In this lab we will build an i
 
 Apple only allows us to develop for iOS on a Mac, so this lab will focus on OS X.
 
+By the end of this lab, you will have:
+
+* Installed all required React Native dependencies
+* Installed [React Native command line interface](https://facebook.github.io/react-native/docs/getting-started.html#content)
+* Initialized a new React Native Project
+* Run and Debug an iOS App
+* Wired up simple authentication against a node API
+* Wired up basic navigation
+
+This `master` branch represents a completed solution set for the lab.  We have separated the lab into logical "breakpoints" by use of branches.  Please see below to get started.
+
 # Dependencies and Suggested Tools
 ## Mac + iOS
 - [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
