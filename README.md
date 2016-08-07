@@ -20,9 +20,10 @@ Each `step-[x]` branch in this repository is a completed solution set.  The `REA
 
 1. Sign up for a [GitHub](https://github.com) account
 1. Install [git](https://git-scm.com/downloads)
-1. Fork `https://github.com/reactjstampabay/rehacked-react-native` to your personal GitHub
-1. In a shell, execute `git clone https://github.com/[your GH username]/rehacked-react-native.git`
-1. In a shell, execute `cd rehacked-react-native`
+1. Fork `https://github.com/reactjstampabay/RehackedNative` to your personal GitHub
+1. In a shell, execute `git clone https://github.com/[your GH username]/RehackedNative.git`
+1. In a shell, execute `cd RehackedNative`
 1. Execute `git checkout initial`
+1. Execute `cd ..` 
 
-[Continue to Step 1](https://github.com/reactjstampabay/rehacked-react-native/tree/step-1)
+[Continue to Step 1](https://github.com/reactjstampabay/RehackedNative/tree/step-1)
