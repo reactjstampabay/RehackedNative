@@ -36,6 +36,6 @@ We have broken up this lab into stepped branches with their own README.md's that
 
 Please follow the branches in the order listed below
 
-[Start Here](https://github.com/reactjstampabay/rehacked-react-native/tree/initial)
+[Start Here](https://github.com/reactjstampabay/RehackedNative/tree/initial)
 
-1. [Step 1 Solution Set: Install React Native, Initialize Project, and Run iOS](https://github.com/reactjstampabay/rehacked-react-native/tree/step-1)
+1. [Step 1 Solution Set: Install React Native, Initialize Project, and Run iOS](https://github.com/reactjstampabay/RehackedNative/tree/step-1)
