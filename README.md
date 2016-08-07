@@ -7,4 +7,4 @@
 
 
 
-[Continue to Step 3](https://github.com/reactjstampabay/rehacked-react-native/tree/step-3)
+[Continue to Step 3](https://github.com/reactjstampabay/RehackedNative/tree/step-3)
