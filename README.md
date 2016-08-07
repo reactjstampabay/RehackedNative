@@ -13,11 +13,6 @@
 
 ## Goal 1: Edit `index.ios.js` and reload in the simulator
 
-### Explanation
-
-* **Watchman** is a file watching service we will install with [Homebrew](http://brew.sh/)
-* **react-native-cli** allows us to initalize new projects and installs the react native package from npm
-
 ### Instructions
 
 1. Open `index.ios.js` in your editor of choice (WebStorm, Atom, etc.)
