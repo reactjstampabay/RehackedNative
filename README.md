@@ -23,7 +23,25 @@
 1. `brew install watchman`
 1. `npm install -g react-native-cli`
 
+## Goal 2: Initialize our React Native Project
 
+### Explanation
 
+* This step will create our baseline iOS and Android apps
+
+### Instructions
+
+1. `react-native init RehackedNative`
+1. `cd RehackedNative`
+
+## Goal 3: Run our iOS App in the simulator
+
+### Explanation
+
+* This step demonstrates one way to run your app - you can also run it directly from within Xcode or [Nuclide](https://nuclide.io/)
+
+### Instructions
+
+1. `react-native run-ios`
 
 [Continue to Step 2](https://github.com/reactjstampabay/rehacked-react-native/tree/step-2)
