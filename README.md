@@ -1,6 +1,6 @@
 ![ReactJS Tampa Bay Logo](https://avatars2.githubusercontent.com/u/18738421?v=3&s=200)
 
-# ReHacked: Going Native with React [ _Step 1_ ]
+# ReHacked: Going Native with React [ Step 1 ]
 ### By [ReactJS Tampa Bay](http://www.meetup.com/ReactJS-Tampa-Bay/)
 
 - brew install watchman
