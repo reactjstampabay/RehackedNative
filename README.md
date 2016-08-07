@@ -7,7 +7,8 @@ Welcome to **ReHacked: Going Native with React**! In this lab we will build an i
 
 Apple only allows us to develop for iOS on a Mac, so this lab will focus on OS X.
 
-## Dependencies for Mac + iOS
+# Dependencies and Suggested Tools
+## Mac + iOS
 - [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
 - [Node Version Manager](https://github.com/creationix/nvm)
 - Node 4.4.7 (using `nvm install 4.4.7`)
