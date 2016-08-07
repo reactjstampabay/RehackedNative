@@ -20,8 +20,8 @@
 
 ### Instructions
 
-- `brew install watchman`
-- `npm install -g react-native-cli`
+1. `brew install watchman`
+1. `npm install -g react-native-cli`
 
 
 
