@@ -5,6 +5,19 @@
 
 Welcome to **ReHacked: Going Native with React**! In this lab we will build an iOS application with simple authorization and navigation. We will use the same [API](https://github.com/reactjstampabay/rehacked-spa-basics-api) as we did for our last lab on [Redux basics](https://github.com/reactjstampabay/rehacked-redux-basics).
 
+Apple only allows us to develop for iOS on a Mac, so this lab will focus on OS X.
+
+## Dependencies for Mac + iOS
+- [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
+- [Node Version Manager](https://github.com/creationix/nvm)
+- Node 4.4.7 (using `nvm install 4.4.7`)
+- [Homebrew](http://brew.sh/) 
+  - `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
+## JavaScript
+- [Atom](https://atom.io/), [WebStorm](https://www.jetbrains.com/webstorm/), or [IntelliJ](https://www.jetbrains.com/idea/)
+  - [terminal-plus for Atom](https://atom.io/packages/terminal-plus)
+
 ## [Why React Native?](https://facebook.github.io/react-native/)
 - React Native lets you build mobile apps using only JavaScript. It uses the same design as React, letting you compose a rich mobile UI from declarative components.
 
