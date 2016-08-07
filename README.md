@@ -18,11 +18,12 @@ Apple only allows us to develop for iOS on a Mac, so this lab will focus on OS X
 - [Atom](https://atom.io/), [WebStorm](https://www.jetbrains.com/webstorm/), or [IntelliJ](https://www.jetbrains.com/idea/)
   - [terminal-plus for Atom](https://atom.io/packages/terminal-plus)
 
-## [Why React Native?](https://facebook.github.io/react-native/)
-- React Native lets you build mobile apps using only JavaScript. It uses the same design as React, letting you compose a rich mobile UI from declarative components.
+# ReHacked
 
-- With React Native, you don't build a “mobile web app”, an “HTML5 app”, or a “hybrid app”. You build a real mobile app that's indistinguishable from an app built using Objective-C or Java. React Native uses the same fundamental UI building blocks as regular iOS and Android apps. You just put those building blocks together using JavaScript and React.
+We have broken up this lab into stepped branches with their own README.md's that describe what to accomplish.
 
-- React Native lets you build your app faster. Instead of recompiling, you can reload your app instantly. With hot reloading, you can even run new code while retaining your application state. Give it a try - it's a magical experience.
+Please follow the branches in the order listed below
 
-- React Native combines smoothly with components written in Objective-C, Java, or Swift. It's simple to drop down to native code if you need to optimize a few aspects of your application. It's also easy to build part of your app in React Native, and part of your app using native code directly - that's how the Facebook app works.
+[Start Here](https://github.com/reactjstampabay/rehacked-react-native/tree/initial)
+
+1. [Step 1 Solution Set: Install React Native, Initialize Project, and Run iOS](https://github.com/reactjstampabay/rehacked-react-native/tree/step-1)
