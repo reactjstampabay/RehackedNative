@@ -31,7 +31,8 @@
 
 ### Instructions
 
-1. `react-native init RehackedNative`
+1. `react-native init RehackedNative` 
+  - answer **yes** to the following ```prompt: Directory RehackedNative already exists. Continue?:  (no) ```
 1. `cd RehackedNative`
 
 ## Goal 3: Run our iOS App in the simulator
