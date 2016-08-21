@@ -5,26 +5,13 @@
 
 # Goals
 
-1. Enable Hot Reloading and edit `index.ios.js`
-1. Build our StartScreen and Login components
+1. Build a StartScreen component
+1. Add iOS specific navigation
 1. Debug our app in chrome
 
 # ReHacked
 
-## Goal 1: Enable Hot Reloading and edit `index.ios.js`
-
-### Explanation
-
-* In this step we will demonstrate the awesomeness of React Native's built in Hot Reloading feature
-
-### Instructions
-
-1. In the iOS simular, press `⌘ + D` to open the _dev menu_
-1. Select the `Enable Hot Reloading` menu option
-1. Open `index.ios.js` in your editor of choice (WebStorm, Atom, etc.)
-1. Change `Welcome to React Native!` to **`Welcome to Rehacked Native!`**
-
-## Goal 2: Build our StartScreen and Login components
+## Goal 1: Build a StartScreen component
 
 ### Explanation
 
@@ -32,6 +19,38 @@
 
 ### Instructions
 
-1. 
+1. Create `src/containers` directory in the root of our project
+1. Create a `StartScreen` directory under `containers`
+1. Create `index.ios.js` under the `StartScreen` directory
+  - Naming our files with `.ios` or `.android` allows us to build Platform specific components ([Platform Specific Code](https://facebook.github.io/react-native/docs/platform-specific-code.html))
+1. Copy/Paste the following into `StartScreen/index.ios.js`
+```javascript
+import React from 'react';
+import {Text, View, StyleSheet} from 'react-native';
+
+export default () => {
+  return (
+    <View style={styles.container}>
+      <Text style={styles.welcome}>
+        Welcome to ReHacked Native iOS!
+      </Text>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
+  },
+  welcome: {
+    fontSize: 20,
+    textAlign: 'center',
+    margin: 10,
+  }
+});
+```
 
 [Back to Step 1](https://github.com/reactjstampabay/RehackedNative/tree/step-1) | [Continue to Step 3](https://github.com/reactjstampabay/RehackedNative/tree/step-3)
