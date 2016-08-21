@@ -5,18 +5,25 @@
 
 # Goals
 
-1. Edit `index.ios.js` and reload in the simulator
+1. Enable Hot Reloading and edit `index.ios.js`
 1. Debug our app in chrome
 1. Build our StartScreen and Login components
 
 # ReHacked
 
-## Goal 1: Edit `index.ios.js` and reload in the simulator
+## Goal 1: Enable Hot Reloading and edit `index.ios.js`
 
 ### Instructions
 
+1. In the iOS simular, press `⌘ + D` to open the _dev menu_
+1. Select the `Enable Hot Reloading` menu option
 1. Open `index.ios.js` in your editor of choice (WebStorm, Atom, etc.)
 1. Change `Welcome to React Native!` to **`Welcome to Rehacked Native!`**
-1. Open the simulator and press `Command⌘ + R`
+
+## Goal 2: Debug our app in chrome
+
+### Instructions
+
+1. 
 
 [Back to Step 1](https://github.com/reactjstampabay/RehackedNative/tree/step-1) | [Continue to Step 3](https://github.com/reactjstampabay/RehackedNative/tree/step-3)
