@@ -16,7 +16,7 @@
 ### Instructions
 
 1. Open `index.ios.js` in your editor of choice (WebStorm, Atom, etc.)
-1. Change `Welcome to React Native!` to `Welcome to Rehacked Native!`
+1. Change `Welcome to React Native!` to **`Welcome to Rehacked Native!`**
 1. Open the simulator and press `Command⌘ + R`
 
 [Back to Step 1](https://github.com/reactjstampabay/RehackedNative/tree/step-1) | [Continue to Step 3](https://github.com/reactjstampabay/RehackedNative/tree/step-3)
