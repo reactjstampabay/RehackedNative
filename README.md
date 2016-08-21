@@ -8,7 +8,7 @@
 1. Install [Watchman](https://facebook.github.io/watchman/) and [React Native command line interface](https://www.npmjs.com/package/react-native-cli)
 1. Initialize our React Native Project
 1. Run our iOS App in the simulator
-1. Review the `android` and `ios` directories created by the CLI
+1. Project review
 
 # ReHacked
 
@@ -46,14 +46,18 @@
 
 1. `react-native run-ios`
 
-## Goal 4: Review the `android` and `ios` directories created by the CLI
+## Goal 4: Project review
 
 ### Explanation
 
-* In this step we will walk through the directories created by the React Native CLI
+* Walk through the directories created by the React Native CLI
+* Note JS entry point in `index.ios.js`
 
 ### Instructions
 
 1. Expand and review the `android` and `ios` directories
+2. Discuss [AppRegistry](https://facebook.github.io/react-native/docs/appregistry.html)
+
+`AppRegistry is the JS entry point to running all React Native apps. App root components should register themselves with AppRegistry.registerComponent, then the native system can load the bundle for the app and then actually run the app when it's ready by invoking AppRegistry.runApplication.`
 
 [Back to Initial](https://github.com/reactjstampabay/RehackedNative/tree/initial) | [Continue to Step 2](https://github.com/reactjstampabay/RehackedNative/tree/step-2)
