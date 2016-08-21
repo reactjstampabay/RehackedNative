@@ -23,7 +23,7 @@
 1. Create a `StartScreen` directory under `containers`
 1. Create `index.ios.js` under the `StartScreen` directory
   - Naming our files with `.ios` or `.android` allows us to build Platform specific components ([Platform Specific Code](https://facebook.github.io/react-native/docs/platform-specific-code.html))
-1. Copy/Paste the following into `StartScreen/index.ios.js`
+1. In your editor of choice (WebStorm, Atom, etc.), copy/paste the following into `StartScreen/index.ios.js`
 ```javascript
 import React from 'react';
 import {Text, View, StyleSheet} from 'react-native';
@@ -51,6 +51,37 @@ const styles = StyleSheet.create({
     margin: 10,
   }
 });
+```
+
+## Goal 2: Add iOS specific navigation
+
+### Explanation
+
+* In this step we will create iOS specific navigation using [NavigatorIOS](https://facebook.github.io/react-native/docs/navigatorios.html)
+
+### Instructions
+
+1. Edit `{project_root}/index.ios.js`
+1. Replace the contents with the following: 
+```javascript
+import React from 'react';
+import {NavigatorIOS, AppRegistry} from 'react-native';
+import StartScreen from './src/containers/StartScreen';
+
+export default RehackedNative = () => {
+  return (
+    <NavigatorIOS
+      initialRoute={{
+        component: StartScreen,
+        title: 'ReHacked Native!'
+      }}
+      navigationBarHidden={false}
+      style={{flex: 1}}
+    />
+  );
+}
+
+AppRegistry.registerComponent('RehackedNative', () => RehackedNative);
 ```
 
 [Back to Step 1](https://github.com/reactjstampabay/RehackedNative/tree/step-1) | [Continue to Step 3](https://github.com/reactjstampabay/RehackedNative/tree/step-3)
