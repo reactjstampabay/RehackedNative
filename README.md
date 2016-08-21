@@ -39,4 +39,4 @@ Please follow the branches in the order listed below
 [Start Here](https://github.com/reactjstampabay/RehackedNative/tree/initial)
 
 1. [Step 1 Solution Set: Install React Native, Initialize Project, and Run iOS](https://github.com/reactjstampabay/RehackedNative/tree/step-1)
-2. [Step 2 Solution Set: Edit, Debug, and Build our Start and Login Screens](https://github.com/reactjstampabay/RehackedNative/tree/step-2)
+2. [Step 2 Solution Set: Enable Hot Reloading and Build and Debug our Start and Login Screens](https://github.com/reactjstampabay/RehackedNative/tree/step-2)
