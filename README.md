@@ -8,6 +8,7 @@
 1. Install [Watchman](https://facebook.github.io/watchman/) and [React Native command line interface](https://www.npmjs.com/package/react-native-cli)
 1. Initialize our React Native Project
 1. Run our iOS App in the simulator
+1. Review the `android` and `ios` directories created by the CLI
 
 # ReHacked
 
@@ -44,5 +45,15 @@
 ### Instructions
 
 1. `react-native run-ios`
+
+## Goal 4: Review the `android` and `ios` directories created by the CLI
+
+### Explanation
+
+* In this step we will walk through the directories created by the React Native CLI
+
+### Instructions
+
+1. Expand and review the `android` and `ios` directories
 
 [Back to Initial](https://github.com/reactjstampabay/RehackedNative/tree/initial) | [Continue to Step 2](https://github.com/reactjstampabay/RehackedNative/tree/step-2)
