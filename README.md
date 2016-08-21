@@ -6,8 +6,8 @@
 # Goals
 
 1. Enable Hot Reloading and edit `index.ios.js`
-1. Debug our app in chrome
 1. Build our StartScreen and Login components
+1. Debug our app in chrome
 
 # ReHacked
 
@@ -20,7 +20,7 @@
 1. Open `index.ios.js` in your editor of choice (WebStorm, Atom, etc.)
 1. Change `Welcome to React Native!` to **`Welcome to Rehacked Native!`**
 
-## Goal 2: Debug our app in chrome
+## Goal 2: Build our StartScreen and Login components
 
 ### Instructions
 
