@@ -7,7 +7,7 @@
 
 1. Build a StartScreen component
 1. Add iOS specific navigation
-1. Debug our app in chrome
+1. Enable Live Reload
 
 # ReHacked
 
@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
 ### Instructions
 
 1. Edit `{project_root}/index.ios.js`
-1. Replace the contents with the following: 
+1. Replace the contents with the below code, then open the simulator, and press `⌘ + R` to reload
 ```javascript
 import React from 'react';
 import {NavigatorIOS, AppRegistry} from 'react-native';
@@ -83,5 +83,18 @@ export default RehackedNative = () => {
 
 AppRegistry.registerComponent('RehackedNative', () => RehackedNative);
 ```
+
+## Goal 3: Enable Live Reload
+
+### Explanation
+
+* In this step we will demonstrate React Native's Live Reload feature
+
+### Instructions
+1. In the iOS simulator, press `⌘ + D` to open the dev menu
+1. Select the `Enable Live Reload` menu option
+1. Edit `{project_root}/index.ios.js`
+1. Change the _initialRoute title_ to **ReHacked Native Title!**
+1. Save, and notice the title is updated in the simulator without having to press `⌘ + R`
 
 [Back to Step 1](https://github.com/reactjstampabay/RehackedNative/tree/step-1) | [Continue to Step 3](https://github.com/reactjstampabay/RehackedNative/tree/step-3)
