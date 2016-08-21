@@ -13,6 +13,10 @@
 
 ## Goal 1: Enable Hot Reloading and edit `index.ios.js`
 
+### Explanation
+
+* In this step we will demonstrate the awesomeness of React Native's built in Hot Reloading feature
+
 ### Instructions
 
 1. In the iOS simular, press `⌘ + D` to open the _dev menu_
@@ -21,6 +25,10 @@
 1. Change `Welcome to React Native!` to **`Welcome to Rehacked Native!`**
 
 ## Goal 2: Build our StartScreen and Login components
+
+### Explanation
+
+* In this step we will create our StartScreen and Login components following the same project structure as our last lab, [rehacked-redux-basics](https://github.com/reactjstampabay/rehacked-redux-basics)
 
 ### Instructions
 
