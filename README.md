@@ -5,15 +5,15 @@
 
 # Goals
 
-1. todo
+1. Add a Login component
 
 # ReHacked
 
-## Goal 1: todo
+## Goal 1: Add a Login component
 
 ### Explanation
 
-* todo
+* In this step, we will add a Login component to allow users to login with their email. We will use the same [API](https://github.com/reactjstampabay/rehacked-spa-basics-api) as our previous labs.
 
 ### Instructions
 
