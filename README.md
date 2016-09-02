@@ -17,6 +17,17 @@
 
 ### Instructions
 
-1. todo
+1. Replace the contents of `/StartScreen/index.ios.js` with the following:
+```javascript
+import React from 'react';
+import Login from './Login';
+
+export default () => {
+  return (
+    <Login/>
+  );
+}
+```
+- If you are wondering why the StartScreen is simply returning the Login component - this will allow us to expand the StartScreen at a later time and add a SignUp component with some cool transition animation.
 
 [Back to Step 2](https://github.com/reactjstampabay/RehackedNative/tree/step-2) | [Continue to Step 4](https://github.com/reactjstampabay/RehackedNative/tree/step-4)
