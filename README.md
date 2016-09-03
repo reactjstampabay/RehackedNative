@@ -55,7 +55,7 @@ export default () => {
 #### Adding Native Code
 1. In `Xcode`, expand the `Libraries` directory.
 1. Back in your JS IDE, expand the `node_modules/react-native-vector-icons` directory. Drag the `RNVectorIcons.xcodeproj` directory under `Libraries` in `Xcode`.
-1. In `Xcode`, click on the main `RehackedNative` project file, and select the `Build Phases`.
+1. In `Xcode`, click on the main `RehackedNative` project file, and select `Build Phases`.
 1. Expand the `Link Binary with Libraries` section.
 1. In the `Project Navigator`, expand the `Libraries/RNVectorIcons.xcodeproj/Products` directory.
 1. Drag the `libRNVectorIcons.a` file over to the frameworks list.
