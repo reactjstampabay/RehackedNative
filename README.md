@@ -31,7 +31,7 @@ export default () => {
 ```
 - If you are wondering why the StartScreen is simply returning the Login component - this will allow us to expand the StartScreen at a later time and add a SignUp component with some cool transition animation.
 
-Goal 2: Add `react-native-vector-icons` library
+## Goal 2: Add `react-native-vector-icons` library
 
 ### Explanation
 
@@ -39,7 +39,7 @@ Goal 2: Add `react-native-vector-icons` library
 
 ### Instructions
 
-## Manually Link Icons
+#### Manually Link Icons
 1. Open a terminal in the root project directory and run `npm install react-native-vector-icons --save`
   - The react-native cli now includes the ablitity to _install_ and _link_ dependencies. This used to be a separate library named `rnpm`. Some libraries have files that need to be manually added to your iOS and Android projects. Font libraries are a good example of those.
 1. Since we are manually adding files, we need to stop the react-native cli.  Open the terminal window running the `React Packager` and press `control + C` to stop the packager. This window can now be closed.
@@ -52,7 +52,7 @@ Goal 2: Add `react-native-vector-icons` library
 1. In the new key, select `Fonts provided by Application` (or UIAppFonts if Xcode won't autocomplete/not using Xcode).
 1. Double click in the `value` section, and type the names of the font files we will be using (_Ionicons.ttf_).
 
-## Adding Native Code
+#### Adding Native Code
 1. In `Xcode`, expand the `Libraries` directory.
 1. Back in your JS IDE, expand the `node_modules/react-native-vector-icons` directory. Drag the `RNVectorIcons.xcodeproj` directory under `Libraries` in `Xcode`.
 1. In `Xcode`, click on the main `RehackedNative` project file, and select the `Build Phases`.
@@ -60,7 +60,7 @@ Goal 2: Add `react-native-vector-icons` library
 1. In the `Project Navigator`, expand the `Libraries/RNVectorIcons.xcodeproj/Products` directory.
 1. Drag the `libRNVectorIcons.a` file over to the frameworks list.
 
-## Start the React Native CLI
+#### Start the React Native CLI
 1. In the project terminal window, run `react-native run-ios`.
 
 [Back to Step 2](https://github.com/reactjstampabay/RehackedNative/tree/step-2) | [Continue to Step 4](https://github.com/reactjstampabay/RehackedNative/tree/step-4)
