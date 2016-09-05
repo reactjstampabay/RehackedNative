@@ -5,33 +5,106 @@
 
 # Goals
 
-1. Add a Login component
-2. Add `react-native-vector-icons` library
+1. Ehance the StartScreen component
+2. Add a placeholder for the Login component
+3. Add `react-native-vector-icons` library
+4. Enhance the Login component
 
 # ReHacked
 
-## Goal 1: Add a Login component
+## Goal 1: Ehance the StartScreen component
 
 ### Explanation
 
-* In this step, we will add a Login component to allow users to login with their email. We will use the same [API](https://github.com/reactjstampabay/rehacked-spa-basics-api) as our previous labs.
+* In this step, we will enhance the StartScreen component to display our app's Login. We will use the same [API](https://github.com/reactjstampabay/rehacked-spa-basics-api) as our previous labs.
 
 ### Instructions
 
 1. Replace the contents of `/StartScreen/index.ios.js` with the following:
 ```javascript
 import React from 'react';
+import {Dimensions, Image, StyleSheet, Text, View} from 'react-native';
 import Login from './Login';
 
 export default () => {
   return (
-    <Login/>
+    <View style={styles.wrapper}>
+      <View style={styles.scrollContainer}>
+        <View style={styles.splashImageContainer}>
+          <Image style={styles.splashImage}
+                 source={{uri: "https://facebook.github.io/react/img/logo_og.png"}}/>
+        </View>
+
+        <View style={styles.content}>
+          <Login/>
+        </View>
+      </View>
+    </View>
   );
 }
-```
-- If you are wondering why the StartScreen is simply returning the Login component - this will allow us to expand the StartScreen at a later time and add a SignUp component with some cool transition animation.
 
-## Goal 2: Add `react-native-vector-icons` library
+var windowSize = Dimensions.get('window');
+var styles = StyleSheet.create({
+  content: {
+    backgroundColor: '#384a5b',
+    position: 'absolute',
+    bottom: 40
+  },
+  wrapper: {
+    backgroundColor: "#384a5b",
+    height: windowSize.height
+  },
+  scrollContainer: {
+    width: windowSize.width,
+    flex: 1
+  },
+  splashImageContainer: {
+    position: 'absolute'
+  },
+  splashImage: {
+    width: windowSize.width,
+    height: windowSize.width === 414 ? 400 : windowSize.width === 375 ? 330 : 255,
+  }
+});
+```
+
+## Goal 2: Add a placeholder for the Login component
+
+### Explanation
+
+* In this step, we will add a placeholder for the Login component.
+
+### Instructions
+
+1. In the `StartScreen` directory, create a new JS file for the Login component, `Login.ios.js`.
+1. Add the following to the Login component:
+```javascript
+import React from 'react';
+import {Dimensions, StyleSheet, Text, View} from 'react-native';
+
+export default () => {
+  return (
+    <View style={styles.loginContent}>
+      <Text style={styles.login}>Login</Text>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  loginContent: {
+    width: Dimensions.get('window').width,
+    alignItems: 'center',
+    justifyContent: 'center',
+    bottom: 60
+  },
+  login: {
+    color: '#fff',
+    fontSize: 34
+  }
+});
+```
+
+## Goal 3: Add `react-native-vector-icons` library
 
 ### Explanation
 
@@ -62,5 +135,15 @@ export default () => {
 
 #### Start the React Native CLI
 1. In the project terminal window, run `react-native run-ios`.
+
+## Goal 4: Enhance the Login component
+
+### Explanation
+
+* In this step, we will add some TextInputs and a Login button.
+
+### Instructions
+
+1. Replace the contents of the Login component with the following [code]().
 
 [Back to Step 2](https://github.com/reactjstampabay/RehackedNative/tree/step-2) | [Continue to Step 4](https://github.com/reactjstampabay/RehackedNative/tree/step-4)
