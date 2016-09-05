@@ -144,6 +144,6 @@ const styles = StyleSheet.create({
 
 ### Instructions
 
-1. Replace the contents of the Login component with the following [code]().
+1. Replace the contents of the Login component with the code located  [here](https://raw.githubusercontent.com/reactjstampabay/RehackedNative/step-3/src/containers/StartScreen/Login.ios.js).
 
 [Back to Step 2](https://github.com/reactjstampabay/RehackedNative/tree/step-2) | [Continue to Step 4](https://github.com/reactjstampabay/RehackedNative/tree/step-4)
