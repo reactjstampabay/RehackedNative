@@ -96,7 +96,16 @@ const styles = StyleSheet.create({
   },
   loginButton: {
     backgroundColor: '#00D8FF',
-    padding: 20,
-    alignItems: 'center',
-  },
+    padding: 15,
+    paddingLeft: 30,
+    paddingRight: 30,
+    borderRadius: 5,
+    shadowColor: '#000',
+    shadowOpacity: .2,
+    shadowOffset: {height: 5},
+    shadowRadius: 5,
+    justifyContent: 'center',
+    flexDirection: 'row',
+    width: window.width - 40
+  }
 });
