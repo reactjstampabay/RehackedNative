@@ -9,6 +9,7 @@
 2. Add a placeholder for the Login component
 3. Add `react-native-vector-icons` library
 4. Enhance the Login component
+5. Hide the Navigation Bar
 
 # ReHacked
 
@@ -145,5 +146,18 @@ const styles = StyleSheet.create({
 ### Instructions
 
 1. Replace the contents of the Login component with the code located  [here](https://raw.githubusercontent.com/reactjstampabay/RehackedNative/step-3/src/containers/StartScreen/Login.ios.js).
+
+## Goal 5: Hide the Navigation Bar
+
+### Explanation
+
+* In this step, we will always hide the Navigation Bar (for the time being).
+
+### Instructions
+
+1. Edit `/StartScreen/index.ios.js`. Set the `navigationBarHidden` attribute to true.
+```javascript
+navigationBarHidden={true}
+```
 
 [Back to Step 2](https://github.com/reactjstampabay/RehackedNative/tree/step-2) | [Continue to Step 4](https://github.com/reactjstampabay/RehackedNative/tree/step-4)
