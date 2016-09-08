@@ -9,7 +9,7 @@ export default RehackedNative = () => {
         component: StartScreen,
         title: 'ReHacked Native Title!'
       }}
-      navigationBarHidden={false}
+      navigationBarHidden={true}
       style={{flex: 1}}
     />
   );
