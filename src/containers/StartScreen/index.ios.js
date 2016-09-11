@@ -9,7 +9,8 @@ export default () => {
         <View style={styles.scrollContainer}>
           <View style={styles.splashImageContainer}>
             <Image style={styles.splashImage}
-                   source={{uri: "https://facebook.github.io/react/img/logo_og.png"}}/>
+                   source={{uri: "https://cdn.auth0.com/blog/react-js/react.png"}}/>
+            <Text style={styles.welcomeText}>React Native Rehacked</Text>
           </View>
 
           <View style={styles.content}>
@@ -24,9 +25,9 @@ export default () => {
 var windowSize = Dimensions.get('window');
 var styles = StyleSheet.create({
   content: {
-    backgroundColor: '#384a5b',
+    backgroundColor: '#fff',
     position: 'absolute',
-    bottom: 40
+    bottom: 0
   },
   keyboard: {
     flex: 1,
@@ -34,7 +35,7 @@ var styles = StyleSheet.create({
     width: windowSize.width
   },
   wrapper: {
-    backgroundColor: "#384a5b",
+    backgroundColor: "#fff",
     height: windowSize.height
   },
   scrollContainer: {
@@ -42,10 +43,19 @@ var styles = StyleSheet.create({
     flex: 1
   },
   splashImageContainer: {
-    position: 'absolute'
+    flex:1,
+    justifyContent:'flex-start',
+    alignItems:'center'
   },
   splashImage: {
-    width: windowSize.width,
-    height: windowSize.width === 414 ? 400 : windowSize.width === 375 ? 330 : 255,
+    width: windowSize.width / 1.5,
+    marginTop:40,
+    height:windowSize.width / 1.5
+    // height: windowSize.width === 414 ? 400 : windowSize.width === 375 ? 330 : 255,
+  },
+  welcomeText: {
+    fontSize:20,
+    color:'#61dafb',
+    fontWeight:'300'
   }
 });
