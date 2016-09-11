@@ -5,28 +5,22 @@
 
 # Goals
 
-1. Install Redux related dependencies, and import the create store function
+1. Install Redux related dependencies
 1. Import the `Provider` HOC from `react-redux`, wrap our `Navigator` component, and create our Redux store
 1. Connect the `StartScreen` component to the Redux store
 1. Wire up the Login component to use Redux
 
 # ReHacked
 
-## Goal 1: Install Redux related dependencies, and import the create store function
+## Goal 1: Install Redux related dependencies
 
 ### Explanation
 
-* In this step, we will install `react-redux` as a dependency.  
-* Next, we will install the `rehacked-common` repository as a dependency. This repo contains our shared Redux and fetch logic.
-* Last, we will import the `createStore` function from `rehacked-common`.
+* In this step, we will install `react-redux` and the `rehacked-common` repository. This repo contains our shared Redux and fetch logic.
 
 ### Instructions
 
 1. Open a terminal window in the root of the project, and run `npm i react-redux https://github.com/reactjstampabay/rehacked-common --save`
-1. Edit `/RehackedNative/index.ios.js`, and import the `createStore` function.
-```javascript
-import createStore from 'rehacked-common/lib/store';
-```
 
 ## Goal 2: Import the `Provider` HOC from `react-redux`, wrap our `Navigator` component, and create our Redux store
 
