@@ -2,7 +2,9 @@ import React from 'react';
 import {Dimensions, StyleSheet, Text, TextInput, TouchableOpacity, View} from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 
-export default () => {
+import {updateLoginField, initiateLogin} from 'rehacked-common/lib/actions/user';
+
+export default ({dispatch, user}) => {
   return (
     <View style={styles.loginContent}>
       <View style={styles.inputContainer}>
@@ -18,8 +20,7 @@ export default () => {
                    placeholderTextColor="#20252b"
                    clearButtonMode="while-editing"
                    style={styles.inputText}
-                   onChangeText={(text) => console.log(text)}
-                   value={""}/>
+                   onChangeText={(text) => dispatch(updateLoginField('email', text))}/>
       </View>
 
       <View style={styles.inputContainerLast}>
@@ -31,15 +32,13 @@ export default () => {
         <TextInput placeholder="Password"
                    placeholderTextColor="#20252b"
                    style={styles.inputText}
-                   onChangeText={(text) => console.log(text)}
-                   value={""}
+                   onChangeText={(text) => dispatch(updateLoginField('password', text))}
                    secureTextEntry={true}/>
       </View>
 
       <View style={styles.spacer}>
         <TouchableOpacity style={styles.loginButton}
-                          onPress={() => {
-                          }}>
+                          onPress={() => dispatch(initiateLogin(user.email, user.password))}>
           <Text style={{color: '#000'}}>Login</Text>
         </TouchableOpacity>
       </View>
