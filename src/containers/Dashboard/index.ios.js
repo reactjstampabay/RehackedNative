@@ -1,13 +1,24 @@
 import React, {Component} from 'react';
-import {StyleSheet, TabBarIOS, Text, View} from 'react-native';
+import {LayoutAnimation, StyleSheet, TabBarIOS, Text, View} from 'react-native';
 import {connect} from 'react-redux';
 import Icon from 'react-native-vector-icons/Ionicons';
+
+import StartScreen from '../StartScreen/index';
+import Home from './Home';
 
 class Dashboard extends Component {
   state = {
     selected_tab: 'home',
     render_count: 0
   };
+
+  componentWillReceiveProps(nextProps) {
+    const {navigator, user} = nextProps;
+    if (!user.profile || user.profile.status !== 'authenticated') {
+      LayoutAnimation.configureNext(LayoutAnimation.Presets.linear);
+      navigator.replace({title: 'StartScreen', component: StartScreen});
+    }
+  }
 
   _renderContent = (pageText) => {
     return (
@@ -18,6 +29,8 @@ class Dashboard extends Component {
   };
 
   render() {
+    const {dispatch, user} = this.props;
+
     return (
       <TabBarIOS
         unselectedTintColor="#000"
@@ -29,7 +42,7 @@ class Dashboard extends Component {
           selectedIconName="ios-home"
           selected={this.state.selected_tab === 'home'}
           onPress={() => this.setState({selected_tab: 'home'})}>
-          {this._renderContent('Home Tab')}
+          <Home dispatch={dispatch} user={user}/>
         </Icon.TabBarItemIOS>
 
         <Icon.TabBarItemIOS
