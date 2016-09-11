@@ -73,8 +73,7 @@ const styles = StyleSheet.create({
 ### Instructions
 1. In the iOS simulator, press `⌘ + D` to open the dev menu
 1. Select the `Enable Live Reload` menu option
-1. Edit `{project_root}/index.ios.js`
-1. Change the _initialRoute title_ to **ReHacked Native Title!**
-1. Save, and notice the title is updated in the simulator without having to press `⌘ + R`
+1. Edit `/src/containers/StartScreen/index.ios.js`, and change the _welcome text_ to **Welcome to ReHacked Native Lab!**
+1. Save, and notice the text is updated in the simulator without having to press `⌘ + R`
 
 [Back to Step 1](https://github.com/reactjstampabay/RehackedNative/tree/step-1) | [Continue to Step 3](https://github.com/reactjstampabay/RehackedNative/tree/step-3)
