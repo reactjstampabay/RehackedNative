@@ -46,3 +46,4 @@ Please follow the branches in the order listed below
 3. [Step 3 Solution Set: Enhance the StartScreen component, Add an Icons library, and Add a Login component](https://github.com/reactjstampabay/RehackedNative/tree/step-3)
 4. [Step 4 Solution Set: All about Redux](https://github.com/reactjstampabay/RehackedNative/tree/step-4)
 5. [Step 5 Solution Set: Convert the StartScreen component and Add a Dashboard component with TabBar](https://github.com/reactjstampabay/RehackedNative/tree/step-5)
+6. [Step 6 Solution Set: Let's add a Camera](https://github.com/reactjstampabay/RehackedNative/tree/step-6)
