@@ -15,6 +15,9 @@ By the end of this lab, you will have:
 * Run and Debug an iOS App
 * Wired up simple authentication against a node API
 * Wired up basic navigation
+* Connected a React Native application to Redux
+* Implemented the Native Camera
+* Implemented a Vector Icons Library
 
 This `master` branch represents a completed solution set for the lab.  We have separated the lab into logical "breakpoints" by use of branches.  Please see below to get started.
 
