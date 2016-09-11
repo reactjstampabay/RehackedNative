@@ -1,8 +1,10 @@
 import React from 'react';
+import {connect} from 'react-redux';
 import {Dimensions, Image, StyleSheet, Text, View} from 'react-native';
+
 import Login from './Login';
 
-export default () => {
+const StartScreen = ({dispatch, user}) => {
   return (
     <View style={styles.wrapper}>
       <View style={styles.scrollContainer}>
@@ -12,12 +14,12 @@ export default () => {
         </View>
 
         <View style={styles.content}>
-          <Login/>
+          <Login dispatch={dispatch} user={user}/>
         </View>
       </View>
     </View>
   );
-}
+};
 
 var windowSize = Dimensions.get('window');
 var styles = StyleSheet.create({
@@ -42,3 +44,10 @@ var styles = StyleSheet.create({
     height: windowSize.width === 414 ? 400 : windowSize.width === 375 ? 330 : 255,
   }
 });
+
+function mapStateToProps(state) {
+  const {user} = state;
+  return {user};
+}
+
+export default connect(mapStateToProps)(StartScreen);
