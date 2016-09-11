@@ -1,35 +1,43 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {Dimensions, Image, StyleSheet, Text, View} from 'react-native';
+import {Dimensions, Image, KeyboardAvoidingView, StyleSheet, Text, View} from 'react-native';
 
 import Login from './Login';
 
 const StartScreen = ({dispatch, user}) => {
   return (
-    <View style={styles.wrapper}>
-      <View style={styles.scrollContainer}>
-        <View style={styles.splashImageContainer}>
-          <Image style={styles.splashImage}
-                 source={{uri: "https://facebook.github.io/react/img/logo_og.png"}}/>
-        </View>
+    <KeyboardAvoidingView style={styles.keyboard} behavior="position">
+      <View style={styles.wrapper}>
+        <View style={styles.scrollContainer}>
+          <View style={styles.splashImageContainer}>
+            <Image style={styles.splashImage}
+                   source={{uri: "https://cdn.auth0.com/blog/react-js/react.png"}}/>
+            <Text style={styles.welcomeText}>React Native Rehacked</Text>
+          </View>
 
-        <View style={styles.content}>
-          <Login dispatch={dispatch} user={user}/>
+          <View style={styles.content}>
+            <Login dispatch={dispatch} user={user}/>
+          </View>
         </View>
       </View>
-    </View>
+    </KeyboardAvoidingView>
   );
 };
 
 var windowSize = Dimensions.get('window');
 var styles = StyleSheet.create({
   content: {
-    backgroundColor: '#384a5b',
+    backgroundColor: '#fff',
     position: 'absolute',
-    bottom: 40
+    bottom: 0
+  },
+  keyboard: {
+    flex: 1,
+    height: windowSize.height,
+    width: windowSize.width
   },
   wrapper: {
-    backgroundColor: "#384a5b",
+    backgroundColor: "#fff",
     height: windowSize.height
   },
   scrollContainer: {
@@ -37,11 +45,19 @@ var styles = StyleSheet.create({
     flex: 1
   },
   splashImageContainer: {
-    position: 'absolute'
+    flex: 1,
+    justifyContent: 'flex-start',
+    alignItems: 'center'
   },
   splashImage: {
-    width: windowSize.width,
-    height: windowSize.width === 414 ? 400 : windowSize.width === 375 ? 330 : 255,
+    width: windowSize.width / 1.5,
+    marginTop: 40,
+    height: windowSize.width / 1.5
+  },
+  welcomeText: {
+    fontSize: 20,
+    color: '#61dafb',
+    fontWeight: '300'
   }
 });
 
