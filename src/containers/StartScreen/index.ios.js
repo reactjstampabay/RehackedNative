@@ -9,7 +9,7 @@ class StartScreen extends Component {
 
   componentWillReceiveProps(nextProps) {
     const {navigator, user} = nextProps;
-    if (user.status === 'authorized') {
+    if (user.profile && user.profile.status === 'authenticated') {
       LayoutAnimation.configureNext(LayoutAnimation.Presets.spring);
       navigator.replace({title: 'ReHacked Dashboard', component: Dashboard});
     }
