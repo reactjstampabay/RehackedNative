@@ -35,36 +35,6 @@ import createStore from 'rehacked-common/lib/store';
 
 ### Instructions
 
-1. Edit `/RehackedNative/index.ios.js` and paste the following code:
-```javascript
-import React from 'react';
-import {NavigatorIOS, AppRegistry} from 'react-native';
-import {Provider} from 'react-redux';
-import createStore from 'rehacked-common/lib/store';
-
-import StartScreen from './src/containers/StartScreen';
-
-/**
- * create Redux store
- */
-const store = createStore();
-
-export default RehackedNative = () => {
-  return (
-    <Provider store={store}>
-      <NavigatorIOS
-        initialRoute={{
-          component: StartScreen,
-          title: 'ReHacked Native Title!'
-        }}
-        navigationBarHidden={true}
-        style={{flex: 1}}
-      />
-    </Provider>
-  );
-}
-
-AppRegistry.registerComponent('RehackedNative', () => RehackedNative);
-```
+1. Replace the contents of `/RehackedNative/index.ios.js` with [`/RehackedNative/index.ios.js`](https://raw.githubusercontent.com/reactjstampabay/RehackedNative/step-4/index.ios.js)
 
 [Back to Step 3](https://github.com/reactjstampabay/RehackedNative/tree/step-3) | [Continue to Step 5](https://github.com/reactjstampabay/RehackedNative/tree/step-5)
