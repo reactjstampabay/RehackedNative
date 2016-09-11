@@ -8,6 +8,7 @@
 1. Convert StartScreen to a class that extends _Component_
 1. Add a Dashboard component
 1. Add Home and Camera components
+1. Enhance the Dashboard component
 
 # ReHacked
 
@@ -51,5 +52,17 @@
 1. Copy/Paste the contents of [`/src/containers/Dashboard/Home.ios.js`](https://raw.githubusercontent.com/reactjstampabay/RehackedNative/step-5/src/containers/Dashboard/Home.ios.js) to `/src/containers/Dashboard/Home.ios.js`
 1. Create `/src/containers/Dashboard/Camera.ios.js`
 1. Copy/paste the contents of [`/src/containers/Dashboard/Camera.ios.js`](https://raw.githubusercontent.com/reactjstampabay/RehackedNative/step-5/src/containers/Dashboard/Camera.ios.js) to `/src/containers/Dashboard/Camera.ios.js`
+
+## Goal 4: Enhance the Dashboard component
+
+### Explanation
+
+* In this step, we will connect the Dashboard component to Redux and display our newly created Home and Camera components
+
+### Instructions
+
+1. Replace the contents of `/src/containers/Dashboard/index.ios.js` with [`/src/containers/Dashboard/index.ios.js`](https://raw.githubusercontent.com/reactjstampabay/RehackedNative/step-5/src/containers/Dashboard/index.ios.js)
+1. Commit locally and review the differences
+1. Review `/Dashboard/Home` and `/Dashboard/Camera` component
 
 [Back to Step 4](https://github.com/reactjstampabay/RehackedNative/tree/step-4) | [Continue to Step 6](https://github.com/reactjstampabay/RehackedNative/tree/step-6)
