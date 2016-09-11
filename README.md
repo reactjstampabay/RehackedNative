@@ -48,7 +48,7 @@ import createStore from 'rehacked-common/lib/store';
 
 ### Instructions
 
-1. Modify the contents of `/src/containers/StartScreen/index.ios.js` with [replace me]()
+1. Modify the contents of `/src/containers/StartScreen/index.ios.js` with [`/src/containers/StartScreen/index.ios.js`](https://raw.githubusercontent.com/reactjstampabay/RehackedNative/step-4/src/containers/StartScreen/index.ios.js)
 
 ## Goal 4: Wire up the Login component to use Redux
 
