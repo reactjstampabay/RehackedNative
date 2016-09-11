@@ -42,7 +42,7 @@ Please follow the branches in the order listed below
 [Start Here](https://github.com/reactjstampabay/RehackedNative/tree/initial)
 
 1. [Step 1 Solution Set: Install React Native, Initialize Project, and Run iOS](https://github.com/reactjstampabay/RehackedNative/tree/step-1)
-2. [Step 2 Solution Set: Build a StartScreen component, Add Navigation, and introduce Dev Menu](https://github.com/reactjstampabay/RehackedNative/tree/step-2)
+2. [Step 2 Solution Set: Build a StartScreen component, Add Navigation, and Introduce Dev Menu](https://github.com/reactjstampabay/RehackedNative/tree/step-2)
 3. [Step 3 Solution Set: Enhance the StartScreen component, Add an Icons library, and Add a Login component](https://github.com/reactjstampabay/RehackedNative/tree/step-3)
 4. [Step 4 Solution Set: All about Redux](https://github.com/reactjstampabay/RehackedNative/tree/step-4)
 5. [Step 5 Solution Set: Convert the StartScreen component and Add a Dashboard component with TabBar](https://github.com/reactjstampabay/RehackedNative/tree/step-5)
