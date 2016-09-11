@@ -16,6 +16,8 @@
 
 Each `step-[x]` branch in this repository is a completed solution set.  The `README.md` of each branch describes the steps on how we got to the solution set from the prior step.
 
+We will use the same [Node API](https://github.com/reactjstampabay/rehacked-spa-basics-api) as our previous labs.
+
 ## Prerequisites
 
 1. Sign up for a [GitHub](https://github.com) account
