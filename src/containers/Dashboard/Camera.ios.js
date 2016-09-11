@@ -3,7 +3,7 @@ import {StyleSheet, Text, View} from 'react-native';
 
 export default () => {
   return (
-    <View style={[styles.tabContent, {backgroundColor: '#3b5998'}]}>
+    <View style={[styles.tabContent, {backgroundColor: '#fff'}]}>
       <View>
         <Text style={styles.tabText}>One day I'll be a real Camera!</Text>
       </View>
@@ -19,7 +19,7 @@ var styles = StyleSheet.create({
     justifyContent: 'center'
   },
   tabText: {
-    color: 'white',
+    color: '#61dafb',
     fontSize: 25
   }
 });

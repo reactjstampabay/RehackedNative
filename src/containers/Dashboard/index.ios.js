@@ -23,7 +23,7 @@ class Dashboard extends Component {
 
   _renderContent = (pageText) => {
     return (
-      <View style={[styles.tabContent, {backgroundColor: '#3b5998'}]}>
+      <View style={[styles.tabContent, {backgroundColor: '#fff'}]}>
         <Text style={styles.tabText}>{pageText}</Text>
       </View>
     );
@@ -73,7 +73,7 @@ var styles = StyleSheet.create({
     alignItems: 'center'
   },
   tabText: {
-    color: 'white',
+    color: '#61dafb',
     margin: 50,
     fontSize: 40
   },

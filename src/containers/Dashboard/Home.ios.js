@@ -5,7 +5,7 @@ import {logout} from 'rehacked-common/lib/actions/user';
 
 export default ({dispatch, user}) => {
   return (
-    <View style={[styles.tabContent, {backgroundColor: '#3b5998'}]}>
+    <View style={[styles.tabContent, {backgroundColor: '#fff'}]}>
       <View>
         <Text style={styles.tabText}>Home Tab</Text>
       </View>
@@ -30,19 +30,19 @@ var styles = StyleSheet.create({
     alignItems: 'center'
   },
   tabText: {
-    color: 'white',
+    color: '#61dafb',
     margin: 50,
     fontSize: 40
   },
   contentText: {
-    color: 'white',
+    color: '#61dafb',
     fontSize: 20
   },
   buttonWrapper: {
     margin: 50
   },
   button: {
-    backgroundColor: '#4183c4',
+    backgroundColor: '#61dafb',
     padding: 15,
     paddingLeft: 30,
     paddingRight: 30,
