@@ -9,7 +9,6 @@
 2. Add a placeholder for the Login component
 3. Add `react-native-vector-icons` library
 4. Enhance the Login component
-5. Hide the Navigation Bar
 
 # ReHacked
 
@@ -17,7 +16,7 @@
 
 ### Explanation
 
-* In this step, we will enhance the StartScreen component to display our app's Login. We will use the same [API](https://github.com/reactjstampabay/rehacked-spa-basics-api) as our previous labs.
+* In this step, we will enhance the StartScreen component to display our app's Login.
 
 ### Instructions
 
@@ -77,7 +76,7 @@ var styles = StyleSheet.create({
 
 ### Instructions
 
-1. In the `StartScreen` directory, create a new JS file for the Login component, `Login.ios.js`.
+1. In the `StartScreen` directory, create `Login.ios.js`.
 1. Add the following to the Login component:
 ```javascript
 import React from 'react';
@@ -145,19 +144,6 @@ const styles = StyleSheet.create({
 
 ### Instructions
 
-1. Replace the contents of the Login component with the code located  [here](https://raw.githubusercontent.com/reactjstampabay/RehackedNative/step-3/src/containers/StartScreen/Login.ios.js).
-
-## Goal 5: Hide the Navigation Bar
-
-### Explanation
-
-* In this step, we will always hide the Navigation Bar (for the time being).
-
-### Instructions
-
-1. Edit `/StartScreen/index.ios.js`. Set the `navigationBarHidden` attribute to true.
-```javascript
-navigationBarHidden={true}
-```
+1. Replace the contents of `/src/containers/StartScreen/Login.ios.js` with [/src/containers/StartScreen/Login.ios.js](https://raw.githubusercontent.com/reactjstampabay/RehackedNative/step-3/src/containers/StartScreen/Login.ios.js).
 
 [Back to Step 2](https://github.com/reactjstampabay/RehackedNative/tree/step-2) | [Continue to Step 4](https://github.com/reactjstampabay/RehackedNative/tree/step-4)
