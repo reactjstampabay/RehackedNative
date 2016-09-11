@@ -30,6 +30,7 @@ class StartScreen extends Component {
             <View style={styles.splashImageContainer}>
               <Image style={styles.splashImage}
                      source={{uri: "https://cdn.auth0.com/blog/react-js/react.png"}}/>
+              <Text style={styles.welcomeText}>React Native Rehacked</Text>
             </View>
 
             <View style={styles.content}>
