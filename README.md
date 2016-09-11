@@ -49,6 +49,7 @@ import createStore from 'rehacked-common/lib/store';
 ### Instructions
 
 1. Modify the contents of `/src/containers/StartScreen/index.ios.js` with [`/src/containers/StartScreen/index.ios.js`](https://raw.githubusercontent.com/reactjstampabay/RehackedNative/step-4/src/containers/StartScreen/index.ios.js)
+1. Commit locally and compare the differences
 
 ## Goal 4: Wire up the Login component to use Redux
 
@@ -58,6 +59,7 @@ import createStore from 'rehacked-common/lib/store';
 
 ### Instructions
 
-1. 
+1. Modify the contents of `/src/containers/StartScreen/Login.ios.js` with [`/src/containers/StartScreen/Login.ios.js`](https://raw.githubusercontent.com/reactjstampabay/RehackedNative/step-4/src/containers/StartScreen/Login.ios.js)
+1. Commit locally and compare the differences
 
 [Back to Step 3](https://github.com/reactjstampabay/RehackedNative/tree/step-3) | [Continue to Step 5](https://github.com/reactjstampabay/RehackedNative/tree/step-5)
