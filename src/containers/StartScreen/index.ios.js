@@ -1,11 +1,16 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {Dimensions, Image, LayoutAnimation, StyleSheet, Text, View} from 'react-native';
+import {validateProfile} from 'rehacked-common/lib/actions/user';
 
 import Dashboard from '../Dashboard';
 import Login from './Login';
 
 class StartScreen extends Component {
+
+  componentWillMount() {
+    this.props.dispatch(validateProfile());
+  }
 
   componentWillReceiveProps(nextProps) {
     const {navigator, user} = nextProps;
