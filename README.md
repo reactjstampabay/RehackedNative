@@ -14,7 +14,7 @@
 
 ### Explanation
 
-* In this step, we will install `react-redux` so we can use the `Provider` HOC.  
+* In this step, we will install `react-redux` as a dependency.  
 * Next, we will install the `rehacked-common` repository as a dependency. This repo contains our shared Redux and fetch logic.
 * Last, we will import the `createStore` function from `rehacked-common`.
 
@@ -25,8 +25,6 @@
 ```javascript
 import createStore from 'rehacked-common/lib/store';
 ```
-
-# ReHacked
 
 ## Goal 2: Import the `Provider` HOC from `react-redux`, wrap our `Navigator` component, and create our Redux store.
 
