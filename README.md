@@ -41,3 +41,4 @@ Please follow the branches in the order listed below
 1. [Step 1 Solution Set: Install React Native, Initialize Project, and Run iOS](https://github.com/reactjstampabay/RehackedNative/tree/step-1)
 2. [Step 2 Solution Set: Build a StartScreen component, Add iOS Navigation, and Enable Live Reload](https://github.com/reactjstampabay/RehackedNative/tree/step-2)
 3. [Step 3 Solution Set: Enhance the StartScreen component, Add an Icons library, and Add a Login component](https://github.com/reactjstampabay/RehackedNative/tree/step-3)
+4. [Step 4 Solution Set: All about Redux](https://github.com/reactjstampabay/RehackedNative/tree/step-4)
