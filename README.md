@@ -33,6 +33,8 @@
 
 1. Create a `Dashboard` folder under `containers`
 1. Create an empty `index.ios.js` file in the new `Dashboard` directory
-1. 
+1. Copy/Paste the contents of [`/src/containers/Dashboard/index.ios.js`](https://raw.githubusercontent.com/reactjstampabay/RehackedNative/step-5/src/containers/Dashboard/index.ios.js) into `/src/containers/Dashboard/index.ios.js`
+1. Review the behavior of this component
+1. Review `<Icon.TabBarItemIOS>` and `<TabBarIOS.Item>`
 
 [Back to Step 4](https://github.com/reactjstampabay/RehackedNative/tree/step-4) | [Continue to Step 6](https://github.com/reactjstampabay/RehackedNative/tree/step-6)
