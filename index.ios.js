@@ -1,7 +1,8 @@
 import React from 'react';
-import {Navigator, AppRegistry} from 'react-native';
+import {Navigator, AppRegistry, AsyncStorage} from 'react-native';
 import {Provider} from 'react-redux';
 import createStore from 'rehacked-common/lib/store';
+import initStorage from 'rehacked-common/lib/initializers/storage';
 
 import StartScreen from './src/containers/StartScreen';
 
@@ -9,6 +10,11 @@ import StartScreen from './src/containers/StartScreen';
  * create Redux store
  */
 const store = createStore();
+
+/**
+ * initialize storage
+ */
+initStorage(global, AsyncStorage);
 
 export default RehackedNative = () => {
 
