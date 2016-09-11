@@ -8,6 +8,9 @@
   "dependencies": {
     "react": "15.2.1",
     "react-native": "0.31.0",
-    "react-native-vector-icons": "^2.1.0"
+    "react-native-vector-icons": "^2.1.0",
+    "react-redux": "^4.4.5",
+    "redux": "^3.6.0",
+    "rehacked-common": "git+https://github.com/reactjstampabay/rehacked-common.git"
   }
 }
