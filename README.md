@@ -6,7 +6,7 @@
 # Goals
 
 1. Convert StartScreen to a class that extends _Component_
-1. Add a Tabbed Dashboard component
+1. Add a Dashboard component
 
 # ReHacked
 
@@ -21,12 +21,13 @@
 ### Instructions
 
 1. Replace the contents of `/src/containers/StartScreen/index.ios.js` with [`/src/containers/StartScreen/index.ios.js`](https://raw.githubusercontent.com/reactjstampabay/RehackedNative/step-5/src/containers/StartScreen/index.ios.js)
+1. Commit locally and compare differences
 
-## Goal 2: Add a Tabbed Dashboard component
+## Goal 2: Add a Dashboard component
 
 ### Explanation
 
-* In this step, we will add a tabbed Dashboard component for authenticated users.
+* In this step, we will add a Dashboard component for authenticated users.
 
 ### Instructions
 
