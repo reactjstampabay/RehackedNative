@@ -5,6 +5,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 
 import StartScreen from '../StartScreen/index';
 import Home from './Home';
+import Camera from './Camera';
 
 class Dashboard extends Component {
   state = {
@@ -51,7 +52,7 @@ class Dashboard extends Component {
           selectedIconName="ios-camera"
           selected={this.state.selected_tab === 'camera'}
           onPress={() => this.setState({selected_tab: 'camera'})}>
-          {this._renderContent('Camera Tab')}
+          <Camera/>
         </Icon.TabBarItemIOS>
 
         <TabBarIOS.Item
