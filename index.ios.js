@@ -1,6 +1,14 @@
 import React from 'react';
 import {Navigator, AppRegistry} from 'react-native';
+import {Provider} from 'react-redux';
+import createStore from 'rehacked-common/lib/store';
+
 import StartScreen from './src/containers/StartScreen';
+
+/**
+ * create Redux store
+ */
+const store = createStore();
 
 export default RehackedNative = () => {
 
@@ -36,15 +44,17 @@ export default RehackedNative = () => {
   }
 
   return (
-    <Navigator
-      style={{flex: 1}}
-      title="ReHacked Native"
-      renderScene={renderScene}
-      configureScene={configureScene}
-      initialRoute={{
-        component: StartScreen, title: 'ReHacked Native Title!'
-      }}>
-    </Navigator>
+    <Provider store={store}>
+      <Navigator
+        style={{flex: 1}}
+        title="ReHacked Native"
+        renderScene={renderScene}
+        configureScene={configureScene}
+        initialRoute={{
+          component: StartScreen, title: 'ReHacked Native Title!'
+        }}>
+      </Navigator>
+    </Provider>
   );
 }
 
