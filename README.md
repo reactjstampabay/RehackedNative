@@ -61,5 +61,6 @@ import createStore from 'rehacked-common/lib/store';
 
 1. Modify the contents of `/src/containers/StartScreen/Login.ios.js` with [`/src/containers/StartScreen/Login.ios.js`](https://raw.githubusercontent.com/reactjstampabay/RehackedNative/step-4/src/containers/StartScreen/Login.ios.js)
 1. Commit locally and compare the differences
+1. In Chrome Developer Tools console, note the state changes being logged
 
 [Back to Step 3](https://github.com/reactjstampabay/RehackedNative/tree/step-3) | [Continue to Step 5](https://github.com/reactjstampabay/RehackedNative/tree/step-5)
