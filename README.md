@@ -43,7 +43,7 @@
 ### Explanation
 
 * In this step, we will add a Home Tab that allows users to Logout
-* Next, we will add a placeholder component for our Camera
+* Next, we will add a placeholder component for the Camera tab
 
 ### Instructions
 
