@@ -5,12 +5,14 @@
 
 # Goals
 
-1. Install Redux related dependencies, and import the create store function.
-1. Import the `Provider` HOC from `react-redux`, wrap our `Navigator` component, and create our Redux store.
+1. Install Redux related dependencies, and import the create store function
+1. Import the `Provider` HOC from `react-redux`, wrap our `Navigator` component, and create our Redux store
+1. Connect the `StartScreen` component to the Redux store
+1. Wire up the Login component to use Redux
 
 # ReHacked
 
-## Goal 1: Install Redux related dependencies, and import the create store function.
+## Goal 1: Install Redux related dependencies, and import the create store function
 
 ### Explanation
 
@@ -26,7 +28,7 @@
 import createStore from 'rehacked-common/lib/store';
 ```
 
-## Goal 2: Import the `Provider` HOC from `react-redux`, wrap our `Navigator` component, and create our Redux store.
+## Goal 2: Import the `Provider` HOC from `react-redux`, wrap our `Navigator` component, and create our Redux store
 
 ### Explanation
 
@@ -36,5 +38,26 @@ import createStore from 'rehacked-common/lib/store';
 ### Instructions
 
 1. Replace the contents of `/RehackedNative/index.ios.js` with [`/RehackedNative/index.ios.js`](https://raw.githubusercontent.com/reactjstampabay/RehackedNative/step-4/index.ios.js)
+1. Commit locally and compare the differences
+
+## Goal 3: Connect the `StartScreen` component to the Redux store
+
+### Explanation
+
+* In this step, we will import `connect` from `react-redux`, and connect the StartScreen component to the Redux store.
+
+### Instructions
+
+1. Modify the contents of `/src/containers/StartScreen/index.ios.js` with [replace me]()
+
+## Goal 4: Wire up the Login component to use Redux
+
+### Explanation
+
+* In this step, we will wire up the Login component to use Redux.  This will allow us to login and store the returned profile in our Redux store.
+
+### Instructions
+
+1. 
 
 [Back to Step 3](https://github.com/reactjstampabay/RehackedNative/tree/step-3) | [Continue to Step 5](https://github.com/reactjstampabay/RehackedNative/tree/step-5)
