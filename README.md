@@ -20,7 +20,7 @@
 
 ### Instructions
 
-1. Replace the contents of `/src/containers/StartScreen/index.ios.js` with [`/src/containers/StartScreen/index.ios.js`](https://github.com/reactjstampabay/RehackedNative/blob/step-5/src/containers/StartScreen/index.ios.js)
+1. Replace the contents of `/src/containers/StartScreen/index.ios.js` with [`/src/containers/StartScreen/index.ios.js`](https://raw.githubusercontent.com/reactjstampabay/RehackedNative/step-5/src/containers/StartScreen/index.ios.js)
 
 ## Goal 2: Add a Tabbed Dashboard component
 
