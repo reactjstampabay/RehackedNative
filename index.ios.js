@@ -29,7 +29,7 @@ export default RehackedNative = () => {
       var props = {navigator: nav, route: route};
       // expose any additional props
       if (route.props) {
-        _.assign(props, route.props);
+        Object.assign(props, route.props);
       }
       return React.createElement(route.component, props);
     }
