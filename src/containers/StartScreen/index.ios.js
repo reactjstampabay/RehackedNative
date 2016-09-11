@@ -43,19 +43,18 @@ var styles = StyleSheet.create({
     flex: 1
   },
   splashImageContainer: {
-    flex:1,
-    justifyContent:'flex-start',
-    alignItems:'center'
+    flex: 1,
+    justifyContent: 'flex-start',
+    alignItems: 'center'
   },
   splashImage: {
     width: windowSize.width / 1.5,
-    marginTop:40,
-    height:windowSize.width / 1.5
-    // height: windowSize.width === 414 ? 400 : windowSize.width === 375 ? 330 : 255,
+    marginTop: 40,
+    height: windowSize.width / 1.5
   },
   welcomeText: {
-    fontSize:20,
-    color:'#61dafb',
-    fontWeight:'300'
+    fontSize: 20,
+    color: '#61dafb',
+    fontWeight: '300'
   }
 });
