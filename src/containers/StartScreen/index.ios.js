@@ -5,7 +5,7 @@ export default () => {
   return (
     <View style={styles.container}>
       <Text style={styles.welcome}>
-        Welcome to ReHacked Native!
+        Welcome to ReHacked Native Lab!
       </Text>
     </View>
   );
