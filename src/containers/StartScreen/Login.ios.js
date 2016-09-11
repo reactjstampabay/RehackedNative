@@ -4,107 +4,101 @@ import Icon from 'react-native-vector-icons/Ionicons';
 
 import {updateLoginField, initiateLogin} from 'rehacked-common/lib/actions/user';
 
-export default ({dispatch, user}) => {
-  return (
-    <View style={styles.loginContent}>
-      <View style={styles.inputContainer}>
-        <Icon name='ios-mail-outline'
-              size={25}
-              color='#ccc'
-              style={styles.emailImage}/>
+export default () => {
+    return (
+        <View style={styles.loginContent}>
+            <View style={styles.inputContainer}>
+                <Text style={styles.inputLabel}>E M A I L</Text>
+                <TextInput keyboardType="email-address"
+                           autoCapitalize={'none'}
+                           autoCorrect={false}
+                           clearButtonMode="while-editing"
+                           style={styles.inputText}
+                           onChangeText={(text) => dispatch(updateLoginField('email', text))}
+                           value={""}/>
+            </View>
 
-        <TextInput keyboardType="email-address"
-                   autoCapitalize={'none'}
-                   autoCorrect={false}
-                   placeholder="Email"
-                   placeholderTextColor="#20252b"
-                   clearButtonMode="while-editing"
-                   style={styles.inputText}
-                   onChangeText={(text) => dispatch(updateLoginField('email', text))}/>
-      </View>
+            <View style={styles.inputContainerLast}>
+                <Text style={styles.inputLabel}>P A S S W O R D</Text>
+                <TextInput style={styles.inputText}
+                           onChangeText={(text) => dispatch(updateLoginField('password', text))}
+                           value={""}
+                           secureTextEntry={true}/>
+            </View>
 
-      <View style={styles.inputContainerLast}>
-        <Icon name='ios-lock-outline'
-              size={25}
-              color='#ccc'
-              style={styles.lockImage}/>
-
-        <TextInput placeholder="Password"
-                   placeholderTextColor="#20252b"
-                   style={styles.inputText}
-                   onChangeText={(text) => dispatch(updateLoginField('password', text))}
-                   secureTextEntry={true}/>
-      </View>
-
-      <View style={styles.spacer}>
-        <TouchableOpacity style={styles.loginButton}
-                          onPress={() => dispatch(initiateLogin(user.email, user.password))}>
-          <Text style={{color: '#000'}}>Login</Text>
-        </TouchableOpacity>
-      </View>
-    </View>
-  );
+            <View style={styles.spacer}>
+                <TouchableOpacity style={styles.loginButton}
+                                  onPress={() => dispatch(initiateLogin(user.email, user.password))}>
+                    <Icon name='ios-lock-outline'
+                          size={27}
+                          color='#fff'
+                          style={styles.emailImage}/>
+                    <Text style={{color: '#fff',fontWeight:'bold'}}>{'L o g i n'.toUpperCase()}</Text>
+                </TouchableOpacity>
+            </View>
+        </View>
+    );
 }
 
 const styles = StyleSheet.create({
-  loginContent: {
-    width: Dimensions.get('window').width,
-    padding: 0
-  },
-  inputContainer: {
-    borderWidth: 1,
-    borderTopWidth: 0,
-    borderLeftWidth: 0,
-    borderRightWidth: 0,
-    borderBottomColor: '#4d667e',
-    marginBottom: 0
-  },
-  inputContainerLast: {
-    borderWidth: 1,
-    borderTopWidth: 0,
-    borderLeftWidth: 0,
-    borderRightWidth: 0,
-    borderBottomColor: '#4d667e',
-    marginBottom: 30,
-    position: 'relative'
-  },
-  inputText: {
-    height: 50,
-    color: '#fff',
-    backgroundColor: 'transparent',
-    paddingLeft: 45,
-    fontSize: 14
-  },
-  emailImage: {
-    position: 'absolute',
-    width: 25,
-    height: 25,
-    left: 10,
-    top: 12
-  },
-  lockImage: {
-    position: 'absolute',
-    left: 10,
-    top: 12,
-    width: 25,
-    height: 25
-  },
-  spacer: {
-    padding: 20,
-    paddingTop: 40
-  },
-  loginButton: {
-    backgroundColor: '#00D8FF',
-    padding: 15,
-    paddingLeft: 30,
-    paddingRight: 30,
-    borderRadius: 5,
-    shadowColor: '#000',
-    shadowOpacity: .2,
-    shadowOffset: {height: 5},
-    shadowRadius: 5,
-    justifyContent: 'center',
-    flexDirection: 'row',
-    width: window.width - 40
-  }
+    loginContent: {
+        width: Dimensions.get('window').width,
+        padding: 0
+    },
+    inputLabel: {
+        color:'#ccc',
+        fontWeight:'bold',
+        fontSize:10,
+        position:'absolute',
+        top:-10
+    },
+    inputContainer: {
+        borderWidth: 1,
+        borderTopWidth: 0,
+        borderLeftWidth: 0,
+        borderRightWidth: 0,
+        borderBottomColor: '#eeeeee',
+        marginLeft: 40,
+        marginRight: 40,
+        marginBottom: 40
+    },
+    inputContainerLast: {
+        borderWidth: 1,
+        borderTopWidth: 0,
+        borderLeftWidth: 0,
+        borderRightWidth: 0,
+        borderBottomColor: '#eeeeee',
+        marginBottom: 10,
+        marginLeft: 40,
+        marginRight: 40,
+        position: 'relative'
+    },
+    inputText: {
+        height: 45,
+        color: '#000',
+        backgroundColor: 'transparent',
+        fontSize: 14
+    },
+    emailImage: {
+        position: 'absolute',
+        width: 25,
+        height: 25,
+        left: 90,
+        top: 8
+    },
+    spacer: {
+        padding: 40,
+        paddingTop: 40
+    },
+    loginButton: {
+        backgroundColor: '#00D8FF',
+        padding: 15,
+        marginBottom: 10,
+        paddingLeft: 30,
+        paddingRight: 30,
+        borderRadius: 30,
+        justifyContent: 'center',
+        flexDirection: 'row',
+
+    }
 });
