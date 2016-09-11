@@ -5,7 +5,7 @@ export default () => {
   return (
     <View style={[styles.tabContent, {backgroundColor: '#3b5998'}]}>
       <View>
-        <Text style={styles.tabText}>Camera Tab</Text>
+        <Text style={styles.tabText}>One day I'll be a real Camera!</Text>
       </View>
     </View>
   );
@@ -14,11 +14,12 @@ export default () => {
 var styles = StyleSheet.create({
   tabContent: {
     flex: 1,
-    alignItems: 'center'
+    alignItems: 'center',
+    flexDirection: 'column',
+    justifyContent: 'center'
   },
   tabText: {
     color: 'white',
-    margin: 50,
-    fontSize: 40
+    fontSize: 25
   }
 });
