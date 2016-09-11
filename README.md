@@ -6,7 +6,7 @@
 # Goals
 
 1. Build a StartScreen component
-1. Add iOS specific navigation
+1. Add navigation with the `Navigator` component
 1. Enable Live Reload
 
 # ReHacked
@@ -32,7 +32,7 @@ export default () => {
   return (
     <View style={styles.container}>
       <Text style={styles.welcome}>
-        Welcome to ReHacked Native iOS!
+        Welcome to ReHacked Native!
       </Text>
     </View>
   );
@@ -53,36 +53,16 @@ const styles = StyleSheet.create({
 });
 ```
 
-## Goal 2: Add iOS specific navigation
+## Goal 2: Add navigation with the `Navigator` component
 
 ### Explanation
 
-* In this step we will create iOS specific navigation using [NavigatorIOS](https://facebook.github.io/react-native/docs/navigatorios.html)
+* In this step we will add navigation using [Navigator](https://facebook.github.io/react-native/docs/navigator.html). Navigator is implemented in JavaScript and is available on both iOS and Android.
 
 ### Instructions
 
-1. Edit `{project_root}/index.ios.js`
-1. Replace the contents with the below code, then open the simulator, and press `⌘ + R` to reload
-```javascript
-import React from 'react';
-import {NavigatorIOS, AppRegistry} from 'react-native';
-import StartScreen from './src/containers/StartScreen';
-
-export default RehackedNative = () => {
-  return (
-    <NavigatorIOS
-      initialRoute={{
-        component: StartScreen,
-        title: 'ReHacked Native!'
-      }}
-      navigationBarHidden={false}
-      style={{flex: 1}}
-    />
-  );
-}
-
-AppRegistry.registerComponent('RehackedNative', () => RehackedNative);
-```
+1. Edit `/RehackedNative/index.ios.js`, and replace the contents with [`/RehackedNative/index.ios.js`](https://raw.githubusercontent.com/reactjstampabay/RehackedNative/step-2/index.ios.js)
+1. Open the simulator, and press `⌘ + R` to reload
 
 ## Goal 3: Enable Live Reload
 
