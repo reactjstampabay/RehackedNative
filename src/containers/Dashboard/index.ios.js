@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {StyleSheet, TabBarIOS, Text, View} from 'react-native';
+import {connect} from 'react-redux';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 class Dashboard extends Component {
@@ -64,4 +65,9 @@ var styles = StyleSheet.create({
   },
 });
 
-export default Dashboard;
+function mapStateToProps(state) {
+  const {user} = state;
+  return {user};
+}
+
+export default connect(mapStateToProps)(Dashboard);
