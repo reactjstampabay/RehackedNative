@@ -7,6 +7,7 @@
 
 1. Add the Camera dependency
 1. Enhance the Camera component
+1. Debug on an iOS Device
 
 # ReHacked
 
@@ -34,5 +35,19 @@
 
 1. Replace the contents of `/src/containers/Dashboard/Camera.ios.js` with [`/src/containers/Dashboard/Camera.ios.js`](https://raw.githubusercontent.com/reactjstampabay/RehackedNative/step-6/src/containers/Dashboard/Camera.ios.js)
 1. Commit locally and compare differences
+
+## Goal 3: Debug on an iOS Device
+
+### Explanation
+
+* In this step, we will demonstrate how to debug the app on an iOS Device.
+* Please note, this assumes that an _iOS Provisioning Profile_ and Certificate have been created for Development.  We won't be covering these topics during the lab, but are more than happy to help out offline (ping us on Slack).
+
+### Instructions
+
+1. Stop the `React Packager` that is running the simulator
+1. Open Xcode and ensure the `RehackedNative` project is selected in the project selector
+1. Ensure your device is selected in the device selector
+1. Click on the `Build and Run` button
 
 [Back to Step 5](https://github.com/reactjstampabay/RehackedNative/tree/step-5)
