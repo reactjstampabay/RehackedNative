@@ -1,12 +1,15 @@
 import React from 'react';
 import {Dimensions, StyleSheet, Text, TextInput, TouchableOpacity, View} from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
+import Spinner from 'react-native-loading-spinner-overlay';
 
 import {updateLoginField, initiateLogin} from 'rehacked-common/lib/actions/user';
 
 export default ({dispatch, user}) => {
   return (
     <View style={styles.loginContent}>
+      <Spinner visible={user.loading} />
+
       <View style={styles.inputContainer}>
         <Text style={styles.inputLabel}>E M A I L</Text>
         <TextInput keyboardType="email-address"
