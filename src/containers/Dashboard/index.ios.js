@@ -60,7 +60,7 @@ class Dashboard extends Component {
           badge={this.state.render_count > 0 ? this.state.render_count : undefined}
           selected={this.state.selected_tab === 'bookmarks'}
           onPress={() => this.setState({selected_tab: 'bookmarks', render_count: ++this.state.render_count})}>
-          {this._renderContent('Bookmarks Tab', this.state.render_count)}
+          {this._renderContent('Bookmarks', this.state.render_count)}
         </TabBarIOS.Item>
       </TabBarIOS>
     );
