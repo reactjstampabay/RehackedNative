@@ -8,6 +8,7 @@
 1. Install Redux related dependencies
 1. Import the `Provider` HOC from `react-redux`, wrap our `Navigator` component, and create our Redux store
 1. Connect the `StartScreen` component to the Redux store
+1. Install `react-native-loading-spinner-overlay`
 1. Wire up the Login component to use Redux
 
 # ReHacked
@@ -45,11 +46,21 @@
 1. Modify the contents of `/src/containers/StartScreen/index.ios.js` with [`/src/containers/StartScreen/index.ios.js`](https://raw.githubusercontent.com/reactjstampabay/RehackedNative/step-4/src/containers/StartScreen/index.ios.js)
 1. Commit locally and compare the differences
 
-## Goal 4: Wire up the Login component to use Redux
+## Goal 4: Install `react-native-loading-spinner-overlay`
 
 ### Explanation
 
-* In this step, we will wire up the Login component to use Redux.  This will allow us to login and store the returned profile in our Redux store.
+* In this step, we will install [`react-native-loading-spinner-overlay`](https://www.npmjs.com/package/react-native-loading-spinner-overlay).  This library displays the [`ActivityIndicator`](https://facebook.github.io/react-native/docs/activityindicator.html) as an Overlay.  
+### Instructions
+
+1. Open a terminal window in the project root, and run `npm i react-native-loading-spinner-overlay --save`
+1. Have no fear, we will implement the `Spinner` in the next step
+
+## Goal 5: Wire up the Login component to use Redux
+
+### Explanation
+
+* In this step, we will wire up the Login component to use Redux (and the Spinner).  This will allow us to login and store the returned profile in our Redux store.
 
 ### Instructions
 
