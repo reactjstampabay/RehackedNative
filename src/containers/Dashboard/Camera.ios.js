@@ -1,25 +1,58 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {Dimensions, StyleSheet, Text, TouchableHighlight, View} from 'react-native';
+import Camera from 'react-native-camera';
 
 export default () => {
+  let camera = null;
+
+  const takePicture = () => {
+    camera.capture()
+      .then((data) => console.log(data))
+      .catch(err => console.error(err));
+  };
+
   return (
-    <View style={[styles.tabContent, {backgroundColor: '#fff'}]}>
-      <View>
-        <Text style={styles.tabText}>One day I'll be a real Camera!</Text>
-      </View>
+    <View style={styles.container}>
+      <Camera
+        ref={(cam) => {
+          camera = cam;
+        }}
+        style={styles.preview}
+        aspect={Camera.constants.Aspect.fill}>
+
+        <TouchableHighlight style={styles.takePictureWrapper}
+                            onPress={takePicture}>
+          <View style={styles.takePicture}/>
+        </TouchableHighlight>
+      </Camera>
     </View>
   );
-};
+}
 
-var styles = StyleSheet.create({
-  tabContent: {
-    flex: 1,
-    alignItems: 'center',
-    flexDirection: 'column',
-    justifyContent: 'center'
+const styles = StyleSheet.create({
+  container: {
+    flex: 1
   },
-  tabText: {
-    color: '#61dafb',
-    fontSize: 25
+  preview: {
+    flex: 1,
+    justifyContent: 'flex-end',
+    alignItems: 'center',
+    height: Dimensions.get('window').height,
+    width: Dimensions.get('window').width
+  },
+  takePicture: {
+    backgroundColor: '#61dafb',
+    width: 60,
+    height: 60,
+    borderRadius: 30,
+  },
+  takePictureWrapper: {
+    backgroundColor: '#02c0ef',
+    borderRadius: 40,
+    width: 80,
+    height: 80,
+    justifyContent: 'center',
+    alignItems: 'center',
+    bottom: 60
   }
 });
