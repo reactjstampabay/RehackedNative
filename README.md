@@ -7,7 +7,7 @@
 
 1. Build a StartScreen component
 1. Add navigation with the `Navigator` component
-1. Enable Live Reload
+1. Enable Live Reload and Debug JS
 
 # ReHacked
 
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
 1. Edit `/RehackedNative/index.ios.js`, and replace the contents with [`/RehackedNative/index.ios.js`](https://raw.githubusercontent.com/reactjstampabay/RehackedNative/step-2/index.ios.js)
 1. Open the simulator, and press `⌘ + R` to reload
 
-## Goal 3: Enable Live Reload
+## Goal 3: Enable Live Reload and Debug JS
 
 ### Explanation
 
@@ -73,6 +73,7 @@ const styles = StyleSheet.create({
 ### Instructions
 1. In the iOS simulator, press `⌘ + D` to open the dev menu
 1. Select the `Enable Live Reload` menu option
+1. Open the dev menu, and select `Debug JS Remotely`
 1. Edit `/src/containers/StartScreen/index.ios.js`, and change the _welcome text_ to **Welcome to ReHacked Native Lab!**
 1. Save, and notice the text is updated in the simulator without having to press `⌘ + R`
 
