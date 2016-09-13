@@ -41,7 +41,9 @@
 ### Explanation
 
 * In this step, we will demonstrate how to debug the app on an iOS Device.
-* Please note, this assumes that an _iOS Provisioning Profile_ and _Certificate_ have been created for Development.  We won't be covering these topics during the lab, but are more than happy to help out offline (ping us on Slack).
+* Assumptions
+  * An _iOS Provisioning Profile_ and _Certificate_ have been created for Development.  We won't be covering these topics during the lab, but are more than happy to help out offline (ping us on Slack).
+  * The `Team` (under _General_ -> _Identity_) is properly set to the correct _Apple Developer_ account
 * When cloning this repo and running locally, you will most likely be prompted to enter your _Apple Developer_ credentials during this step.
 
 ### Instructions
