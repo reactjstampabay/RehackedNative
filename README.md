@@ -25,7 +25,8 @@ This `master` branch represents a completed solution set for the lab.  We have s
 ## Mac + iOS
 - [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
 - [Node Version Manager](https://github.com/creationix/nvm)
-- Node 4.4.7 (using `nvm install 4.4.7`)
+  - We recommend using nvm, but you can also install node with Homebrew
+- Node 4.5.0 (using `nvm install 4.5.0`)
 - [Homebrew](http://brew.sh/) 
   - `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
