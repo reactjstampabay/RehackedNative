@@ -19,8 +19,7 @@
 
 ### Instructions
 
-1. Create `src/containers` directory in the root of our project
-1. Create a `StartScreen` directory under `containers`
+1. Create the following directory hierarchy in the root of the project: `src/containers/StartScreen`
 1. Create `index.ios.js` under the `StartScreen` directory
   - Naming our files with `.ios` or `.android` allows us to build [Platform Specific Code](https://facebook.github.io/react-native/docs/platform-specific-code.html)
 1. In your editor of choice (WebStorm, Atom, etc.), copy/paste the following into `StartScreen/index.ios.js`
