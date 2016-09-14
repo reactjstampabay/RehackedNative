@@ -23,6 +23,7 @@
 ### Instructions
 
 1. Replace the contents of `/src/containers/StartScreen/index.ios.js` with [`/src/containers/StartScreen/index.ios.js`](https://raw.githubusercontent.com/reactjstampabay/RehackedNative/step-5/src/containers/StartScreen/index.ios.js)
+1. Ignore the _Red Screen of Death_, we will add the Dashboard component in the next step
 1. Commit locally and compare differences
 
 ## Goal 2: Add a Dashboard component
@@ -36,6 +37,7 @@
 1. Create a `Dashboard` folder under `containers`
 1. Create an empty `index.ios.js` file in the new `Dashboard` directory
 1. Copy/Paste the contents of [`/src/containers/Dashboard/index.ios.js`](https://gist.githubusercontent.com/johnrhampton/139e936c444760fcbc46410f7dd19756/raw/c3cd4800f42c591027d5e2937437879a29db2183/index.ios.js) into `/src/containers/Dashboard/index.ios.js`
+1. Reload and Login using `johnrhampton@gmail.com / 123`
 1. Review the behavior of this component
 1. Review `<Icon.TabBarItemIOS>` and `<TabBarIOS.Item>`
 
