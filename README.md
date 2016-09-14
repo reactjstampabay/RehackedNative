@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
 1. Open a terminal in the root project directory and run `npm install react-native-vector-icons --save`
   - The react-native cli now includes the ablitity to _install_ and _link_ dependencies. This used to be a separate library named `rnpm`. Some libraries have files that need to be manually added to your iOS and Android projects. Font libraries are a good example of those.
 1. Since we are manually adding files, we need to stop the react-native cli.  Open the terminal window running the `React Packager` and press `control + C` to stop the packager. This window can now be closed.
-1. Start `Xcode` and open the iOS project located at `{project_path}/RehackedNative/ios/RehackedNative.xcodeproj`
+1. Start `Xcode` and open the iOS project located at `/RehackedNative/ios/RehackedNative.xcodeproj`
 1. Back in your JS IDE, expand the `node_modules/react-native-vector-icons` directory.
 1. Drag the `Fonts` directory over to the `RehackedNative` project in `Xcode`,
   - Ensure the `Added folders: Create groups` radio button is selected, and the `Add to Targets: RehackedNative` checkbox is checked
