@@ -52,7 +52,7 @@
 ### Explanation
 
 * Walk through the directories created by the React Native CLI
-* Note JS entry point in `index.ios.js`
+* Review JS entry point in `index.ios.js`
 
 ### Instructions
 
