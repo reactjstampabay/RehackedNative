@@ -19,7 +19,7 @@
 
 ### Instructions
 
-1. In a termianl window at the root of the project, run the following to install the camera dependency, `npm i react-native-camera@https://github.com/lwansbrough/react-native-camera.git --save`
+1. Run the following in a terminal window at the root of the project `npm i react-native-camera@https://github.com/lwansbrough/react-native-camera.git --save`
  * We are installing from the GitHub repo vs npm to ensure we are using the latest goodness.
 1. Run the following `react-native link react-native-camera` to automatically link the camera to the native platforms
  * More information on [Linking Libraries](https://facebook.github.io/react-native/docs/linking-libraries-ios.html)
