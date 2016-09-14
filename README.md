@@ -77,7 +77,8 @@ const styles = StyleSheet.create({
 1. In `Xcode`, expand the `Fonts` and `RehackedNative` directories. Click on `RehackedNative/Info.plist`.
 1. Right click in `Info.plist`, and select `Add Row`.
 1. In the new key, select `Fonts provided by Application` (or UIAppFonts if Xcode won't autocomplete/not using Xcode).
-1. Double click in the `value` section, and type the names of the font files we will be using (_Ionicons.ttf_).
+1. Add a row if necessary, and expand the `Fonts provided by Application` Array.
+1. Click in the `value` text area, and type the name of the font file we will be using (_Ionicons.ttf_).
 
 #### Adding Native Code
 1. In `Xcode`, expand the `Libraries` directory.
